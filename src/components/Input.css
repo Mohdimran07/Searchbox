@@ -1,0 +1,71 @@
+.inputs {
+  margin-top: 105px;
+  display: flex;
+}
+
+.search input {
+  background-color: white;
+  border: 0;
+  border-radius: 0px;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  font-size: 18px;
+  padding: 15px;
+  height: 30px;
+  width: 300px;
+}
+
+.searchIcon {
+  height: 60px;
+  width: 50px;
+  background-color: white;
+  display: grid;
+  place-items: center;
+}
+
+input:focus {
+  outline: none;
+}
+.searchIcon svg {
+  font-size: 35px;
+}
+
+.dataInput {
+  width: 380px;
+  height: 170px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+#clearBtn {
+  cursor: pointer;
+}
+
+.filteredData {
+  width: 85%;
+
+  border-bottom: 1px solid black;
+}
+
+.Inputname {
+  font-weight: bold;
+  margin-left: 5px;
+  font-size: 18px;
+}
+
+.Inputitem {
+  margin-left: 7px;
+}
+
+.Inputaddress {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+}
+
+.Inputpincode {
+  display: grid;
+  justify-items: end;
+  font-weight: bold;
+}
